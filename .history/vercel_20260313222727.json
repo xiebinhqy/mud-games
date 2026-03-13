@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "api/**/*.js",
-      "use": "@vercel/node",  
+      "use": "@vercel/node",  // 关键：删除 20.x，用默认最新版
       "config": {
         "includeFiles": ["api/**"]
       }
